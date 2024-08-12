@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quetzal Challegue</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body class="hidden">
 
@@ -67,6 +68,14 @@
         </div>
     </header>
 
+    <section class="tiempo">
+        <h2>La mejor carrera de MTB comienza</h2>
+        <div class="portada" id="portada">
+            <div id="cuenta"></div>
+            </div>
+        </div>
+    </section>
+
 
 
 
@@ -118,7 +127,7 @@
                 <ul>
                     <a href="/gpx/ruta del cafe .gpx.gpx" download="Ruta Cafe.gpx" class="boton-gpx" >Descarga Gpx</a>
                 </ul>
-                <img src="/imgbanner/rutacafe.png" class="rutaquetzal"  alt="gpx">
+                <img src="/imgbanner/rutacafe.png" class="rutacafeimg"  alt="">
             </ul>
             <div class="desnivelcafe">
                 <img src="/imgbanner/desnivelcafe.png" alt="">
@@ -139,7 +148,7 @@
                             <ul>
                                 <a href="/gpx/2024-06-11_1640378850_Ruta del quetzal.gpx" download="Ruta Quetzal.gpx" class="boton-gp" >Descargar Gpx</a>
                             </ul>
-                            <img src="imgbanner/rutaquetzal.png" alt="">
+                            <img src="imgbanner/rutaquetzal.png"  class="rutaquetzaal" alt="">
                         </ul>
                         <div class="desnivelquet">
                             <img src="imgbanner/desnivelquetzal.png" alt="">
@@ -151,6 +160,7 @@
 
 
     <div class="slider">
+        <h2>Productos del los Kit</h2>
         <div class="slide-track">
             <div class="slide">
                 <img src="/imgbanner/carrucel/1.jpg" alt="">
@@ -225,11 +235,30 @@
                 <input class="controls" type="text" name="apellidos" id="nombre" placeholder="Ingrese su Nombre" required >
                 <input class="controls" type="text" name="correo" id="apellidos" placeholder="Ingrese sus Apellidos" required>
                 <input class="controls" type="text" name="info" id="info" placeholder="¿Que necesitas?" required>
-                <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
                 <!-- <input class="botons" type="submit" value="Enviar"> -->
                 <button type="submit" class="botons" id="btn-enviar">Enviar</button>
             </form>
         </section>
+
+
+
+
+
+        <footer >
+            <div class="redes-sociales">
+                <a href="#" class="face"><i class='bx bxl-facebook-circle' ></i></a>
+                <a href="#"><i class='bx bxl-instagram' ></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></a>
+            </div>
+            <div class="logof">
+                <a href="index.html">
+                    <img src="imgbanner/logofooter.png" alt="Logo de la página">
+                </a>
+            </div>
+            <div class="opciones">
+                <a href="#">Sobre nosotros</a>
+            </div>
+        </footer>
 
 
 
@@ -256,5 +285,10 @@
     })
     });
 </script>
+
+
+/*script contador*/
+<script src="/js/querycontador.js"></script>
+<script src="/js/caracteriticascontador.js"></script>
 </body>
 </html>
