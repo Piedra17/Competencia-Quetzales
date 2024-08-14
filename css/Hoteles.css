@@ -254,6 +254,15 @@ body{
   color: #dd5151;
 }
 
+.titulo-dos{
+  padding-top: 500px;
+  align-items: center;
+}
+
+.titulo-tres{
+  padding-top: 500px;
+}
+
 
 .card{
   position: relative;

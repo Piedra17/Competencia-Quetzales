@@ -726,6 +726,493 @@ footer {
 
 }
 
+@media(max-width:1200px){
+
+    .menu{
+        padding: 30px;
+        position: relative;
+    }
+
+    .menu label{
+        display: initial;
+        padding-top: 30px;
+    }
+
+    .menu .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background:   linear-gradient(45deg, #21a642 0%,#545454 100%);
+        display: none;
+    }
+    .menu .navbar ul{
+        flex-direction: column;
+        padding: 0 20px;
+    }
+
+    .menu .navbar ul li{
+        width: 100%;
+        padding: 15px 0;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .menu .navbar ul li a:hover{
+        color: #1f0c42;
+    }
+    .navbar .btn-barra{
+        background-color: transparent;
+        color: #e72424;
+    }
+
+
+    #menu:checked ~ .navbar{
+        display: initial;
+    }
+
+    .header-txt{
+        padding-left: 500px;
+    }
+    .header-txt h1{
+        font-size: 40px;
+        font-weight: 600;
+        margin-top: 250px;
+        color: #fff;
+    }
+    
+    .header-txt p{
+        font-size: 15px;
+        color: #c1c1c1;
+        margin-bottom: 50px;
+        padding-top: 25px;
+        color: #fff;
+    }
+
+
+    
+.btn-prin{
+    display: inline-block;
+    padding: 13px 30px;
+    background: #21A642;
+    color: #ffff;
+    font-size: 18px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.2);
+    margin-left: 50px;
+}
+
+.btn-prin:hover{
+    background: #ffff;
+    color: #21A642;
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.2);
+}
+
+.header-content{
+    background: url(/imgbanner/foto\ banner.jpg) no-repeat;
+    height: 86vh;
+    display: flex;     
+    background-size:cover;
+    background-position: center;
+    max-width: 100vw;
+}
+
+.premio{
+    background: url(/imgbanner/fondobicis.png)no-repeat;
+    background-position: center; 
+}
+.premio h2{
+    text-align: center;
+    color: #fff;
+    padding-top: 20px;
+}
+
+.premio h2 .uno{
+    text-align: center;
+    color: #dd211a;
+}
+
+.premio h2 .dos{
+    text-align: center;
+    color: #21A642;
+}
+
+.imagen-premio{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.bici{
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 270px;
+    margin-top: 150px;
+}
+
+.bicis{
+    justify-content: space-between;
+    padding-left: 50px;
+}
+
+.invitados h2{
+    color: #fff;
+    text-align: center;
+    padding-top: 250px;
+}
+
+.invitados p{
+    color: #fff;
+    text-align: center;
+    margin-top: 25px;
+    max-width: 1440px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.per{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    margin: 100px;
+}
+
+
+.te{
+    display: none;
+}
+
+.rutas{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.boton-strava{
+    background-color: #dd211a;
+    color: #fff;
+    padding: 15px 35px;
+    border-radius: 10px;
+    font-size: 20px;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.boton-strava:hover{
+    color: #dd211a;
+    background-color: #fff;
+}
+
+.boton-gpx{
+    background-color: #dd211a;
+    color: #fff;
+    padding: 15px 35px;
+    border-radius: 10px;
+    font-size: 20px;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.boton-gpx:hover{
+    color: #dd211a;
+    background-color: #fff;
+}
+
+.cafe{
+    align-items: center;
+    background: url(/imgbanner/fondocafe.png) no-repeat;
+    height: 100vh;
+    width: 100vh;    
+    background-size:cover;
+    background-position: center;
+    max-width: 1440px;
+    margin-left: 130px;
+    margin-top: 0px;
+    flex-wrap: wrap;
+}
+.cafe h2{
+    color: #fff;
+    padding-top: 100px;
+    font-size: 35px;
+    margin: 50px;
+}
+
+.cafe-btn {
+    flex-wrap: wrap;
+    margin-right: 400px;
+}
+
+.desnivelcafe img{
+    display: flex;
+    height: 300px;
+    width: 400px;
+    padding-right: 150px;
+    margin-top: -150px;
+    flex-wrap: wrap;
+}
+.rutacafeimg{
+    padding-left: 500px;
+    padding-top: 50px;
+    width: 400px;
+    height: 400px;
+}
+
+
+.boton-stra{
+    background-color: #dd211a;
+    color: #fff;
+    padding: 15px 35px;
+    border-radius: 10px;
+    font-size: 20px;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.boton-stra:hover{
+    color: #dd211a;
+    background-color: #fff;
+}
+
+.boton-gp{
+    background-color: #dd211a;
+    color: #fff;
+    padding: 15px 35px;
+    border-radius: 10px;
+    font-size: 20px;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.boton-gp:hover{
+    color: #dd211a;
+    background-color: #fff;
+}
+
+.quetzal{
+    align-items: center;
+    background: url(/imgbanner/fondoquetzal.png) no-repeat;
+    height: 100vh;
+    width: 100vh;    
+    background-size:cover;
+    background-position: center;
+    max-width: 1440px;
+    margin-left: 130px;
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+.quetzal h2{
+    color: #fff;
+    padding-top: 100px;
+    font-size: 35px;
+    margin: 50px;
+}
+
+.quet-btn{
+    margin-right: 400px;
+    flex-wrap: wrap;
+}
+
+.desnivelquet img{
+    display: flex;
+    height: 300px;
+    width: 400px;
+    padding-right: 150px;
+    margin-top: -150px;
+    flex-wrap: wrap;
+}
+
+.rutaquetzaal{
+    padding-left: 500px;
+    padding-top: 50px;
+    width: 300px;
+    height: 400px;
+}
+
+
+/*Final Seccion rutas*/
+
+/* carrucel */
+
+.slider{
+    width: 75vw;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+    margin-left: 100px;
+    margin-top: 200px;
+    position: relative;
+}
+
+.slider h2{
+    margin: 25px;
+}
+
+.slider .slide-track{
+    display: flex;
+    animation: scroll 90s linear infinite;
+    -webkit-animation: scroll 60s linear infinite;
+    width: calc(200px * 14);
+
+}
+
+.slide .slidee{
+    width: 200px;
+}
+
+.slider .slidee img{
+    width: 100%;
+}
+
+
+@keyframes scroll {
+    0%{
+        -webkit-transfor: translateX(0);
+        transform: translateX(0);
+    }
+    100%{
+        -webkit-transfor: translateX(calc(-200px * 7));
+        transform: translateX(calc(-200px * 7));
+    }
+
+}
+
+/*Final seccion carrucel*/
+
+/*inicio de seccion camisa del evento*/
+
+.camisa-oficial{
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 200px;
+}
+
+.camisa-oficial h2{
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+}
+
+.camisasquetzal img{
+    max-width: 1440px;
+    height: 500px;
+    width: 400px;
+    margin-left: 320px;
+    padding-top: 25px;
+}
+
+/*Final seccion camisas*/
+
+/*incio seccion de inscripcion*/
+
+.form-register {
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    flex-wrap: wrap;
+}
+
+.form-register h4 {
+    padding-left: 150px;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.controls {
+    width: 50%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: red;
+    text-align: center;
+    margin-left: 200px;
+}
+
+
+.form-register a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.form-register a:hover {
+    color:#F21616;
+    text-decoration: underline;
+}
+
+.form-register .botons {
+    width: 50%;
+    background: #F21616;
+    border: none;
+    padding: 12px;
+    color: #fff;
+    margin: 16px 0;
+    font-size: 20px;
+    margin-left: 215px;
+    cursor: pointer;
+}
+
+
+.efectobar{
+    background: #21A642;
+}
+
+.efectob{
+    background-color: red;
+}
+.bar{
+    background: violet;
+}
+
+
+/*inicio footeer*/
+
+footer {
+    background-color: #86BC9A;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+}
+
+.redes-sociales a {
+    color: #fff;
+    font-size: 40px;
+    margin: 10px;
+}
+
+.logof {
+    padding-left: 0px;
+}
+
+.opciones {
+    margin: 20px;
+}
+
+.opciones a {
+    color: white;
+    text-decoration: none;
+}
+
+.opciones a:hover {
+    text-decoration: underline;
+    color: #F21616;
+}
+
+/*final footer*/
+
+
+}
+
+
+
 @media(max-width:1024px){
 
     .container{
