@@ -683,6 +683,49 @@ footer {
 
 /*final footer*/
 
+@media(max-width:1400px){
+    .premio{
+        background: url(/imgbanner/fondobicis.png)no-repeat;
+        background-position: center; 
+    }
+    .premio h2{
+        text-align: center;
+        color: #fff;
+        padding-top: 20px;
+        font-size: 25px;
+    }
+    
+    .premio h2 .uno{
+        text-align: center;
+        color: #dd211a;
+    }
+    
+    .premio h2 .dos{
+        text-align: center;
+        color: #21A642;
+    }
+    
+    .imagen-premio{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    
+    .bici{
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-left: 100px;
+        margin-top: 140px;
+    }
+    
+    .bicis{
+        justify-content: space-between;
+        padding-left: 280px;
+    }
+    
+
+}
+
 @media(max-width:1024px){
 
     .container{
@@ -716,13 +759,19 @@ footer {
 
     .menu .navbar ul li{
         width: 100%;
-        padding: 20px 0;
+        padding: 15px 0;
         text-align: center;
+        font-size: 25px;
     }
 
     .menu .navbar ul li a:hover{
         color: #1f0c42;
     }
+    .navbar .btn-barra{
+        background-color: transparent;
+        color: #e72424;
+    }
+
 
     #menu:checked ~ .navbar{
         display: initial;
@@ -1197,3 +1246,991 @@ footer {
 
 }
 
+@media(max-width:768px){
+    .container{
+        margin: 0 auto;
+        background-color: #ffffff;
+        width: 100vw;
+    }
+
+    .menu{
+        padding: 30px;
+        position: relative;
+    }
+
+    .menu label{
+        display: initial;
+        padding-top: 30px;
+    }
+
+    .menu .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background:   linear-gradient(45deg, #21a642 0%,#545454 100%);
+        display: none;
+    }
+    .menu .navbar ul{
+        flex-direction: column;
+        padding: 0 20px;
+    }
+
+    .menu .navbar ul li{
+        width: 100%;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .menu .navbar ul li a:hover{
+        color: #1f0c42;
+    }
+
+    #menu:checked ~ .navbar{
+        display: initial;
+    }
+
+    .header-txt{
+        padding-left: 50px;
+    }
+    .header-txt h1{
+        font-size: 50px;
+        font-weight: 600;
+        margin-top: 50px;
+        color: #fff;
+    }
+    
+    .header-txt p{
+        font-size: 20px;
+        color: #c1c1c1;
+        margin-bottom: 50px;
+        padding-top: 25px;
+        color: #fff;
+    }
+
+
+    
+.btn-prin{
+    display: inline-block;
+    padding: 13px 30px;
+    background: #21A642;
+    color: #ffff;
+    font-size: 18px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.2);
+    margin-left: 50px;
+}
+
+.btn-prin:hover{
+    background: #ffff;
+    color: #21A642;
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.2);
+}
+
+.header-content{
+    background: url(/imgbanner/foto\ banner.jpg) no-repeat;
+    height: 86vh;
+    display: flex;     
+    background-size:cover;
+    background-position: center;
+    max-width: 100vw;
+}
+
+.premio{
+    background: url(/imgbanner/fondobicis.png)no-repeat;
+    background-position: center; 
+}
+.premio h2{
+    text-align: center;
+    color: #fff;
+    padding-top: 20px;
+}
+
+.premio h2 .uno{
+    text-align: center;
+    color: #dd211a;
+}
+
+.premio h2 .dos{
+    text-align: center;
+    color: #21A642;
+}
+
+.imagen-premio{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.bici{
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 70px;
+    margin-top: 100px;
+}
+
+.bicis{
+    justify-content: space-between;
+    padding-left: 150px;
+}
+
+.invitados h2{
+    color: #fff;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.invitados p{
+    color: #fff;
+    text-align: center;
+    margin-top: 25px;
+    max-width: 1440px;
+    padding-left: 0px;
+    font-size: 17px;
+}
+
+.per{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    margin: 100px;
+    padding-left: 70px;
+}
+
+.per img{
+    margin: 10px;
+}
+
+
+.te{
+    display: none;
+}
+
+.rutas{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.boton-strava{
+    background-color: #dd211a;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.boton-strava:hover{
+    color: #dd211a;
+    background-color: #fff;
+}
+
+.boton-gpx{
+    background-color: #dd211a;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.boton-gpx:hover{
+    color: #dd211a;
+    background-color: #fff;
+}
+
+.cafe{
+    align-items: center;
+    background: url(/imgbanner/fondocafe.png) no-repeat;
+    height: 100vh;
+    width: 100vh;    
+    background-size:cover;
+    background-position: center;
+    max-width: 1440px;
+    margin-left: 30px;
+    margin-top: 0px;
+    flex-wrap: wrap;
+}
+.cafe h2{
+    color: #fff;
+    padding-top: 100px;
+    font-size: 35px;
+    margin: 50px;
+}
+
+.cafe-btn {
+    flex-wrap: wrap;
+    margin-right: 500px;
+}
+
+.desnivelcafe img{
+    height: 300px;
+    width: 400px;
+    padding-right: 300px;
+    margin-top: -100px;
+    flex-wrap: wrap;
+}
+.rutacafeimg{
+    padding-left: 350px;
+    padding-top: 50px;
+    width: 400px;
+    height: 400px;
+}
+
+
+.boton-stra{
+    background-color: #dd211a;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.boton-stra:hover{
+    color: #dd211a;
+    background-color: #fff;
+}
+
+.boton-gp{
+    background-color: #dd211a;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.boton-gp:hover{
+    color: #dd211a;
+    background-color: #fff;
+}
+
+.quetzal{
+    align-items: center;
+    background: url(/imgbanner/fondoquetzal.png) no-repeat;
+    height: 100vh;
+    width: 100vh;    
+    background-size:cover;
+    background-position: center;
+    max-width: 1440px;
+    margin-left: 30px;
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+.quetzal h2{
+    color: #fff;
+    padding-top: 100px;
+    font-size: 35px;
+    margin: 50px;
+}
+
+.quet-btn{
+    margin-right: 500px;
+    flex-wrap: wrap;
+}
+
+.desnivelquet img{
+    display: flex;
+    height: 300px;
+    width: 400px;
+    padding-right: 200px;
+    margin-top: -150px;
+    flex-wrap: wrap;
+}
+
+.rutaquetzaal{
+    padding-left: 410px;
+    padding-top: 50px;
+    width: 300px;
+    height: 400px;
+}
+
+.ruta{
+    padding-top: 100px;
+}
+
+
+/*Final Seccion rutas*/
+
+/* carrucel */
+
+.slider{
+    width: 75vw;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+    margin-left: 100px;
+    margin-top: 200px;
+    position: relative;
+}
+
+.slider h2{
+    margin: 25px;
+}
+
+.slider .slide-track{
+    display: flex;
+    animation: scroll 90s linear infinite;
+    -webkit-animation: scroll 60s linear infinite;
+    width: calc(200px * 14);
+
+}
+
+.slide .slidee{
+    width: 200px;
+}
+
+.slider .slidee img{
+    width: 100%;
+}
+
+
+@keyframes scroll {
+    0%{
+        -webkit-transfor: translateX(0);
+        transform: translateX(0);
+    }
+    100%{
+        -webkit-transfor: translateX(calc(-200px * 7));
+        transform: translateX(calc(-200px * 7));
+    }
+
+}
+
+/*Final seccion carrucel*/
+
+/*inicio de seccion camisa del evento*/
+
+.camisa-oficial{
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 170px;
+}
+
+.camisa-oficial h2{
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+}
+
+.camisasquetzal img{
+    max-width: 1440px;
+    height: 500px;
+    width: 400px;
+    margin-left: 190px;
+    padding-top: 20px;
+}
+
+/*Final seccion camisas*/
+
+/*incio seccion de inscripcion*/
+
+.form-register {
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    flex-wrap: wrap;
+}
+
+.form-register h4 {
+    padding-left: 70px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.controls {
+    width: 50%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: red;
+    text-align: center;
+    margin-left: 160px;
+}
+
+
+.form-register a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.form-register a:hover {
+    color:#F21616;
+    text-decoration: underline;
+}
+
+.form-register .botons {
+    width: 50%;
+    background: #F21616;
+    border: none;
+    padding: 12px;
+    color: #fff;
+    margin: 16px 0;
+    font-size: 20px;
+    margin-left: 170px;
+    cursor: pointer;
+}
+
+
+.efectobar{
+    background: #21A642;
+}
+
+.efectob{
+    background-color: red;
+}
+.bar{
+    background: violet;
+}
+
+
+/*inicio footeer*/
+
+footer {
+    background-color: #86BC9A;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.redes-sociales a {
+    color: #fff;
+    font-size: 40px;
+    margin: 5px;
+}
+
+.logof {
+    padding-left: 0px;
+}
+
+.opciones {
+    margin: 10px;
+}
+
+.opciones a {
+    color: white;
+    text-decoration: none;
+}
+
+.opciones a:hover {
+    text-decoration: underline;
+    color: #F21616;
+}
+}
+
+@media(max-width:400px){
+
+    .logo img{
+        width: 100px;
+        height: 90px;
+    }
+    .container{
+        margin: 0 auto;
+        background-color: #ffffff;
+        width: 100vw;
+    }
+
+    .menu{
+        padding: 30px;
+        position: relative;
+    }
+
+    .menu label{
+        display: initial;
+        padding-top: 30px;
+    }
+
+    .menu .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background:   linear-gradient(45deg, #21a642 0%,#545454 100%);
+        display: none;
+    }
+    .menu .navbar ul{
+        flex-direction: column;
+        padding: 0 20px;
+    }
+
+    .menu .navbar ul li{
+        width: 100%;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .menu .navbar ul li a:hover{
+        color: #1f0c42;
+    }
+
+    #menu:checked ~ .navbar{
+        display: initial;
+    }
+
+    .header-txt{
+        padding-left: 0px;
+    }
+    .header-txt h1{
+        font-size: 40px;
+        font-weight: 600;
+        margin-top: 0px;
+        color: #fff;
+    }
+    
+    .header-txt p{
+        font-size: 15px;
+        color: #c1c1c1;
+        margin-bottom: 50px;
+        padding-top: 25px;
+        color: #fff;
+    }
+
+
+    
+.btn-prin{
+    display: inline-block;
+    padding: 10px 20px;
+    background: #21A642;
+    color: #ffff;
+    font-size: 18px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.2);
+    margin-left: 0px;
+}
+
+.btn-prin:hover{
+    background: #ffff;
+    color: #21A642;
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.2);
+}
+
+.header-content{
+    background: url(/imgbanner/foto\ banner.jpg) no-repeat;
+    height: 86vh;
+    display: flex;     
+    background-size:cover;
+    background-position: center;
+    max-width: 100vw;
+}
+#cuenta {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 100px;
+    padding-top: 25px;
+    flex-wrap: wrap;
+}
+
+.simply-section {
+	background: #21A642;
+	width: 100px;
+	height: 100px;
+	margin: 0 15px;
+	border-radius: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    color: #fff;
+}
+
+
+.premio{
+    background: url(/imgbanner/fondobicis.png)no-repeat;
+    background-position: center;
+}
+.premio h2{
+    text-align: center;
+    color: #fff;
+    padding-top: 20px;
+    font-size: 20px;
+    flex-wrap: wrap;
+}
+
+.premio h2 .uno{
+    text-align: center;
+    color: #dd211a;
+}
+
+.premio h2 .dos{
+    text-align: center;
+    color: #21A642;
+}
+
+.imagen-premio{
+    flex-wrap: wrap;
+}
+
+.bici{
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 40px;
+    margin-top: 50px;
+}
+
+.bici img{
+    width: 300px;
+    height: 200px;
+}
+
+.bicis img{
+    display: none;
+}
+
+.invitados h2{
+    color: #fff;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.invitados p{
+    color: #fff;
+    text-align: center;
+    margin-top: 25px;
+    max-width: 1440px;
+    padding-left: 0px;
+    font-size: 17px;
+}
+
+.per{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    margin: 100px;
+    padding-left: 70px;
+}
+
+.per img{
+    margin: 10px;
+}
+
+
+.te{
+    display: none;
+}
+
+.rutas{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.boton-strava{
+    background-color: #dd211a;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.boton-strava:hover{
+    color: #dd211a;
+    background-color: #fff;
+}
+
+.boton-gpx{
+    background-color: #dd211a;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.boton-gpx:hover{
+    color: #dd211a;
+    background-color: #fff;
+}
+
+.cafe{
+    align-items: center;
+    background: url(/imgbanner/fondocafe.png) no-repeat;
+    height: 100vh;
+    width: 100vh;    
+    background-size:cover;
+    background-position: center;
+    max-width: 1440px;
+    margin-left: 30px;
+    margin-top: 0px;
+    flex-wrap: wrap;
+}
+.cafe h2{
+    color: #fff;
+    padding-top: 100px;
+    font-size: 35px;
+    margin: 50px;
+}
+
+.cafe-btn {
+    flex-wrap: wrap;
+    margin-right: 500px;
+}
+
+.desnivelcafe img{
+    height: 300px;
+    width: 400px;
+    padding-right: 300px;
+    margin-top: -100px;
+    flex-wrap: wrap;
+}
+.rutacafeimg{
+    padding-left: 350px;
+    padding-top: 50px;
+    width: 400px;
+    height: 400px;
+}
+
+
+.boton-stra{
+    background-color: #dd211a;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.boton-stra:hover{
+    color: #dd211a;
+    background-color: #fff;
+}
+
+.boton-gp{
+    background-color: #dd211a;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.boton-gp:hover{
+    color: #dd211a;
+    background-color: #fff;
+}
+
+.quetzal{
+    flex-wrap: wrap;
+}
+.quetzal h2{
+    color: #fff;
+    padding-top: 100px;
+    font-size: 35px;
+    margin: 50px;
+}
+
+.quet-btn{
+    margin-right: 500px;
+    flex-wrap: wrap;
+}
+
+.desnivelquet img{
+    display: none;
+}
+
+.rutaquetzaal{
+    padding-left: 60px;
+    padding-top: 50px;
+    width: 200px;
+    height: 300px;
+}
+
+.ruta{
+    padding-top: 100px;
+}
+
+
+/*Final Seccion rutas*/
+
+/* carrucel */
+
+.slider{
+    width: 60vw;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+    margin-left: 70px;
+    margin-top: 300px;
+    position: relative;
+}
+
+.slider h2{
+    margin: 25px;
+}
+
+.slider .slide-track{
+    display: flex;
+    animation: scroll 90s linear infinite;
+    -webkit-animation: scroll 60s linear infinite;
+    width: calc(200px * 14);
+
+}
+
+.slide .slidee{
+    width: 200px;
+}
+
+.slider .slidee img{
+    width: 100%;
+}
+
+
+@keyframes scroll {
+    0%{
+        -webkit-transfor: translateX(0);
+        transform: translateX(0);
+    }
+    100%{
+        -webkit-transfor: translateX(calc(-200px * 7));
+        transform: translateX(calc(-200px * 7));
+    }
+
+}
+
+/*Final seccion carrucel*/
+
+/*inicio de seccion camisa del evento*/
+
+.camisa-oficial{
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 170px;
+}
+
+.camisa-oficial h2{
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+}
+
+.camisasquetzal img{
+    height: 200px;
+    width: 100px;
+    margin-left: 60px;
+    padding-top: 20px;
+}
+
+/*Final seccion camisas*/
+
+/*incio seccion de inscripcion*/
+
+.form-register {
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 90px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    flex-wrap: wrap;
+}
+
+.form-register h4 {
+    padding-left: 60px;
+    font-size: 17px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.controls {
+    width: 40%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: red;
+    text-align: center;
+    margin-left: 80px;
+    font-size: 15px;
+}
+
+
+.form-register a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.form-register a:hover {
+    color:#F21616;
+    text-decoration: underline;
+}
+
+.form-register .botons {
+    width: 40%;
+    background: #F21616;
+    border: none;
+    padding: 12px;
+    color: #fff;
+    margin: 16px 0;
+    font-size: 17px;
+    margin-left: 90px;
+    cursor: pointer;
+}
+
+
+.efectobar{
+    background: #21A642;
+}
+
+.efectob{
+    background-color: red;
+}
+.bar{
+    background: violet;
+}
+
+
+/*inicio footeer*/
+
+footer {
+    background-color: #86BC9A;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.redes-sociales a {
+    color: #fff;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+.logof img {
+    width: 80px;
+    height: 60px;
+}
+
+.opciones {
+    margin: 10px;
+    font-size: 15px;
+}
+
+.opciones a {
+    color: white;
+    text-decoration: none;
+}
+
+.opciones a:hover {
+    text-decoration: underline;
+    color: #F21616;
+}
+}
