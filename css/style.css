@@ -2318,6 +2318,7 @@ footer {
 
 .tiempo{
     margin-top: 0px;
+    flex-wrap: wrap;
 }
 
 .tiempo h2{
@@ -2335,20 +2336,21 @@ footer {
 
 .simply-section {
 	background: #21A642;
-	width: 100px;
-	height: 100px;
+	width: 80px;
+	height: 90px;
 	margin: 0 10px;
-	border-radius: 20px;
+	border-radius: 10px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
     color: #fff;
+    flex-wrap: wrap;
+    margin: 5px;
 }
 
 .simply-amount {
-	display: block;
+	flex-wrap: wrap;
 	font-size: 30px;
-	font-weight: 700;
 }
 
 .simply-word {
