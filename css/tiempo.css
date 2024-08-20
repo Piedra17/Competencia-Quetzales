@@ -43,7 +43,7 @@
     display: none;
   }
   .text-blink{
-    animation: animate .7s ease-in-out .1s;
+    animation: animate .90s ease-in-out .90s;
   }
   @keyframes animate {
     0%{
