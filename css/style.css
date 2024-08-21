@@ -2818,6 +2818,7 @@ footer {
     color: #fff;
     text-align: center;
     padding-top: 2px;
+    font-size: 30px;
 }
 
 #cuenta {
@@ -2843,12 +2844,12 @@ footer {
 
 .simply-amount {
 	flex-wrap: wrap;
-	font-size: 30px;
+	font-size: 20px;
 }
 
 .simply-word {
 	font-weight: 300;
-	font-size: 20px;
+	font-size: 15px;
     color: #24303c;
 }
 
@@ -2868,11 +2869,13 @@ footer {
 .premio h2 .uno{
     text-align: center;
     color: #dd211a;
+    font-size: 20px;
 }
 
 .premio h2 .dos{
     text-align: center;
     color: #21A642;
+    font-size: 20px;
 }
 
 .imagen-premio{
@@ -2887,9 +2890,9 @@ footer {
 }
 
 .bici img{
-    width: 400px;
-    height: 300px;
-    margin-left: 50px;
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
 }
 
 .bicis img{
@@ -2984,8 +2987,8 @@ footer {
 .rutacafeimg{
     padding-left: 60px;
     padding-top: 50px;
-    width: 400px;
-    height: 500px;
+    width: 200px;
+    height: 300px;
 }
 
 
@@ -3041,8 +3044,8 @@ footer {
 .rutaquetzaal{
     padding-left: 60px;
     padding-top: 50px;
-    width: 400px;
-    height: 500px;
+    width: 200px;
+    height: 300px;
 }
 
 .ruta{
@@ -3103,7 +3106,6 @@ footer {
 
 .camisa-oficial{
     flex-wrap: wrap;
-    align-items: center;
     padding-top: 170px;
 }
 
@@ -3113,11 +3115,11 @@ footer {
     text-align: center;
 }
 
+
 .camisasquetzal img{
-    height: 300px;
-    width: 200px;
-    padding-left: 25px;
-    padding-top: 20px;
+    height: 200px;
+    width: 150px;
+    margin-inline-start: 40px;
 }
 
 /*Final seccion camisas*/
@@ -3137,7 +3139,7 @@ footer {
 }
 
 .form-register h4 {
-    padding-left: 60px;
+    padding-left: 50px;
     font-size: 17px;
     margin-bottom: 20px;
     flex-wrap: wrap;
@@ -3154,7 +3156,7 @@ footer {
     font-size: 18px;
     color: red;
     text-align: center;
-    margin-left: 150px;
+    margin-left: 100px;
     font-size: 15px;
 }
 
@@ -3177,7 +3179,7 @@ footer {
     color: #fff;
     margin: 16px 0;
     font-size: 17px;
-    margin-left: 160px;
+    margin-left: 110px;
     cursor: pointer;
 }
 
