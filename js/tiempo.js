@@ -23,4 +23,4 @@ function progress(){
 // /*Redirige después de 5 segundos*/
         setTimeout(function() {
             window.location.href = 'home.html';
-        }, 10000); // 5000 milisegundos = 5 segundos
+        }, 50000); // 5000 milisegundos = 5 segundos
