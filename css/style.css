@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 *{
     margin: 0;
@@ -7,11 +7,20 @@
     list-style: none;
 }
 
+
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+
 body{
     background-color: black;
 }
 
-
+.logo{
+    padding-left: 25px;
+}
 
 
 .img{
@@ -40,9 +49,12 @@ header{
 
 .navbar ul li{
     padding: 0 20px;
-    font-size: 20px;
+    font-size: 25px;
     margin-top: 30px;
     margin-right: 10px;
+    font-family:"Saira Extra Condensed", sans-serif;
+    font-weight: 600;
+    font-style: normal;
 }
 
 .navbar ul li a {
@@ -58,8 +70,8 @@ header{
     color: #fff;
     background-color:#F21616;
     background-size: cover;
-    border-radius: 20px;
-    padding: 15px;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .navbar .btn-barra:hover{
@@ -90,10 +102,13 @@ header{
 }
 
 .header-txt h1{
-    font-size: 50px;
-    font-weight: 600;
+    font-size: 70px;
+    font-weight: 800;
     margin-top: 250px;
     color: #fff;
+    font-family:"Saira Extra Condensed", sans-serif;
+    font-weight: 800;
+    font-style: bold;
 }
 
 .header-txt p{
@@ -184,7 +199,7 @@ header{
 .premio h2{
     text-align: center;
     color: #fff;
-    padding-top: 20px;
+    padding-top: 40px;
 }
 
 .premio h2 .uno{
@@ -422,6 +437,7 @@ header{
     animation: scroll 90s linear infinite;
     -webkit-animation: scroll 60s linear infinite;
     width: calc(200px * 14);
+    margin-top: 50px;
 
 }
 
@@ -501,7 +517,7 @@ header{
     font-family: 'calibri';
     font-size: 18px;
     color: red;
-    text-align: center;
+    text-align: left;
     margin-left: 450px;
 }
 
@@ -523,14 +539,14 @@ header{
 }
 
 .form-register .botons {
-    width: 50%;
+    width: 10%;
     background: #F21616;
     border: none;
     padding: 12px;
     color: #fff;
     margin: 16px 0;
     font-size: 20px;
-    margin-left: 450px;
+    margin-left: 820px;
     cursor: pointer;
 }
 
@@ -549,38 +565,79 @@ header{
 
 /*inicio footeer*/
 
+
 footer {
     background-color: #86BC9A;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
-    width: 100%;
-}
-
-.redes-sociales a {
     color: #fff;
-    font-size: 50px;
-    margin: 20px;
+    padding: 20px 0;
+    text-align: center;
 }
 
-.logof {
-    padding-left: 190px;
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
-.opciones {
-    margin: 25px;
+.footer-logo {
+    max-width: 150px;
+    margin-bottom: 20px;
 }
 
-.opciones a {
+.social-links a{
+    margin-bottom: 20px;
     color: white;
-    text-decoration: none;
+    font-size: 30px;
 }
 
-.opciones a:hover {
-    text-decoration: underline;
-    color: #F21616;
+.social-links a:hover{
+    color: #dd211a;
 }
+
+
+.social-icon {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-icon img {
+    width: 24px;
+    height: 24px;
+}
+
+.copyright {
+    font-size: 14px;
+    margin: 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .social-icon img {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .footer-logo {
+        max-width: 120px;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-logo {
+        max-width: 100px;
+    }
+    
+    .social-icon img {
+        width: 18px;
+        height: 18px;
+    }
+}
+
+
+
+
+
+
 
 /*final footer*/
 
@@ -2605,34 +2662,32 @@ footer {
 /*inicio footeer*/
 
 footer {
-    background-color: #86BC9A;
+    background: #86BC9A;
     flex-wrap: wrap;
     width: 100%;
+    margin-top: 50px;
 }
+
+.redes-sociales {
+    padding-top: 30px;
+}
+
 
 .redes-sociales a {
     color: #fff;
     font-size: 20px;
-    margin: 0 auto;
+    margin: 10px;
 }
 
-.logof img {
-    width: 80px;
-    height: 60px;
+.logof {
+    padding-right: 100px;
+    padding-top: 50px;
+    width: 50px;
+    height: 100px;
 }
 
 .opciones {
-    margin: 10px;
-    font-size: 15px;
+    margin: 25px;
 }
 
-.opciones a {
-    color: white;
-    text-decoration: none;
-}
-
-.opciones a:hover {
-    text-decoration: underline;
-    color: #F21616;
-}
 }

@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+html{
+    overflow-x: hidden;
+}
+
+
+.centrado{
+    height: 100vh;
+    display: flex;
+    background-color: #000000;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.loader {
+    width: 106px;
+    height: 56px;
+    display: block;
+    margin: 30px auto;
+    background-image: linear-gradient(#e1e1e1 50px, transparent 0), linear-gradient(#e1e1e1 50px, transparent 0), linear-gradient(#e1e1e1 50px, transparent 0), linear-gradient(#e1e1e1 50px, transparent 0), radial-gradient(circle 14px, #e1e1e1 100%, transparent 0);
+    background-size: 48px 15px , 15px 35px, 15px 35px, 25px 15px, 28px 28px;
+    background-position: 25px 5px, 58px 20px, 25px 17px, 2px 37px, 76px 0px;
+    background-repeat: no-repeat;
+    position: relative;
+    transform: rotate(-45deg);
+    box-sizing: border-box;
+}
+
+.loader::after,
+.loader::before {
+    content: '';
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    border: 6px solid #e1e1e1;
+    border-radius: 50%;
+    left: -45px;
+    top: -10px;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(#e1e1e1 64px, transparent 0), linear-gradient(#e1e1e1 66px, transparent 0), radial-gradient(circle 4px, #e1e1e1 100%, transparent 0);
+    background-size: 40px 1px , 1px 40px, 8px 8px;
+    background-position: center center;
+    box-sizing: border-box;
+    animation: bike 0.3s linear infinite;
+}
+
+.loader::before {
+    left: 25px;
+    top: 60px;
+}
+
+@keyframes bike {
+    0% {
+    transform: rotate(0deg);
+    }
+
+    100% {
+    transform: rotate(360deg);
+    }
+} 
+
+
+
+
+
+
+.img{
+    max-width: 100%;
+}
+
+
+
+.container{
+    background-color: #ffffff;
+    width: 100vw;
+}
+
+.logo{
+    padding-left: 25px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.navbar ul{
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul li{
+    padding: 0 20px;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+.navbar ul li a {
+    color: black;
+    background-color: transparent;
+}
+
+.navbar ul li a:hover{
+    color: #dd5151;
+}
+
+.navbar .btn-barra{
+    color: #fff;
+    background-color:#F21616;
+    background-size: cover;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.navbar .btn-barra:hover{
+    background-image: linear-gradient(225deg, #fc7777 0, #fc7777 50%, #fc7777 100%);
+    color: #fff;
+}
+#menu{
+    display: none;
+}
+
+.menu-icono{
+    width: 50px;
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+
+
+
+
+
+
+.header-content{
+    display: flex;
+}
+
+.header-txt{
+    flex-basis: 50%;
+    padding-left: 700px;
+    flex-wrap: wrap;
+    font-family: "Saira Extra Condensed", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.header-txt h1{
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 250px;
+    color: #fff;
+}
+
+.header-txt p{
+    font-size: 20px;
+    color: #c1c1c1;
+    margin-bottom: 50px;
+    padding-top: 25px;
+    color: #fff;
+}
+
+.btn-prin{
+    display: inline-block;
+    padding: 13px 30px;
+    background: #21A642;
+    color: #ffff;
+    font-size: 18px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.2);
+    margin-left: 120px;
+    font-family: "Saira Extra Condensed", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+.btn-prin:hover{
+    background: #ffff;
+    color: #21A642;
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.2);
+}
+
+.header-content{
+    background: url(/nosotrosimg/banner.png) no-repeat;
+    height: 86vh;
+    display: flex;     
+    background-size:cover;
+    background-position: center;
+    max-width: 100%;
+}
+
+
+.texto-dos{
+    padding-left: 80px;
+    margin-top: 40px;
+    font-size: 30px;
+    font-family: "Saira Extra Condensed", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.texto{
+    padding-left: 120px;
+    margin-top: 40px;
+    font-size: 30px;
+    font-family: "Saira Extra Condensed", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}

@@ -90,6 +90,10 @@ header{
     width: 100vw;
 }
 
+.logo{
+  padding-left: 25px;
+}
+
 .menu{
     display: flex;
     justify-content: space-between;
@@ -161,8 +165,12 @@ body{
 
 .header-txt{
   flex-basis: 50%;
-  padding-left: 900px;
+  padding-left: 700px;
   flex-wrap: wrap;
+  font-family: "Saira Extra Condensed", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 40px;
 }
 
 .header-txt h1{
@@ -189,6 +197,10 @@ body{
   border-radius: 15px;
   box-shadow: 0 0 20px rgb(0, 0, 0, 0.2);
   margin-left: 120px;
+  font-family: "Saira Extra Condensed", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 1.5rem;
 }
 
 .btn-prin:hover{
@@ -208,14 +220,20 @@ body{
 
 .texto-dos{
   padding-left: 80px;
-  margin-top: 20px;
+  margin-top: 40px;
   font-size: 30px;
+  font-family: "Saira Extra Condensed", sans-serif;
+  font-weight: 200;
+  font-style: normal;
 }
 
 .texto{
   padding-left: 120px;
-  margin-top: 20px;
+  margin-top: 40px;
   font-size: 30px;
+  font-family: "Saira Extra Condensed", sans-serif;
+  font-weight: 200;
+  font-style: normal;
 }
 .card{
   position: relative;
@@ -295,7 +313,7 @@ body{
 
 .card .back h3{
   font-size: 30px;
-  margin-top: 20px;
+  margin-top: 40px;
 
   letter-spacing: 2px;
 }
@@ -311,7 +329,6 @@ body{
 .card:hover .back{
   transform: perspective(600px) rotateY(360deg);
 }
-
 
 
 
