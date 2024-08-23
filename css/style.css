@@ -2902,7 +2902,7 @@ footer {
 .invitados h2{
     color: #fff;
     text-align: center;
-    padding-top: 200px;
+    padding-top: 90px;
 }
 
 .invitados p{
@@ -2966,12 +2966,12 @@ footer {
     background: url(/imgbanner/fondocafe.png) no-repeat;
     background-size:cover;
     background-position: center;
-    margin-top: 0px;
+    margin-top: 0 auto;
     flex-wrap: wrap;
 }
 .cafe h2{
     color: #fff;
-    padding-top: 100px;
+    padding-top: 10px;
     font-size: 35px;
     margin: 50px;
 }
@@ -2986,7 +2986,7 @@ footer {
 }
 .rutacafeimg{
     padding-left: 60px;
-    padding-top: 50px;
+    padding-top: 30px;
     width: 200px;
     height: 300px;
 }
@@ -3027,7 +3027,7 @@ footer {
 }
 .quetzal h2{
     color: #fff;
-    padding-top: 100px;
+    padding-top: 10px;
     font-size: 35px;
     margin: 50px;
 }
@@ -3063,7 +3063,7 @@ footer {
     margin: auto;
     overflow: hidden;
     margin-left: 70px;
-    margin-top: 100px;
+    margin-top: 0 auto;
     position: relative;
 }
 
