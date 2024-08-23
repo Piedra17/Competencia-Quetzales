@@ -225,6 +225,10 @@ header{
     width: 100%;
 }
 
+.btn-prin{
+    display: none;       
+}
+
 
 
 .overlay {
@@ -417,29 +421,8 @@ header{
             color: #fff;
             flex-wrap: wrap;
         }
-    
-    
-        
-    .btn-prin{
-        display: inline-block;
-        padding: 13px 30px;
-        background: #21A642;
-        color: #ffff;
-        font-size: 18px;
-        border-radius: 15px;
-        box-shadow: 0 0 20px rgb(0, 0, 0, 0.2);
-        margin-left: 50px;
-        flex-wrap: wrap;
-    }
-    
-    .btn-prin:hover{
-        background: #ffff;
-        color: #21A642;
-        box-shadow: 0 0 20px rgb(0, 0, 0, 0.2);
-    }
-    
     .header-content{
-        background: url(/imgHoteles/Banner\ Hoteles.png) no-repeat;
+        background: url(/eventosimg/pexels-wendywei-1540406\ 1.png) no-repeat;
         height: 86vh;
         display: flex;     
         background-size:cover;
@@ -447,3 +430,193 @@ header{
         max-width: 100vw;
     }
 }
+
+
+
+
+
+
+
+@media(max-width:991px){
+
+    .header-content{
+        padding: 30px;
+        margin-top: 0;
+        flex-direction: column;
+        text-align: center;
+        height: 80vh;
+    }
+  
+    .header-txt{
+        padding: 0 0 40px 0;
+        margin-top: 150px;
+    }  
+    .navbar .btn-barra{
+        background-color: transparent;
+        color: #e72424;
+    }
+
+  
+  }
+  
+  @media(max-width:768px){
+    .container{
+        margin: 0 auto;
+        background-color: #ffffff;
+        width: 100vw;
+    }
+  
+    .menu{
+        padding: 30px;
+        position: relative;
+    }
+  
+    .menu label{
+        display: initial;
+        padding-top: 30px;
+    }
+  
+    .menu .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background:   linear-gradient(45deg, #21a642 0%,#545454 100%);
+        display: none;
+    }
+    .menu .navbar ul{
+        flex-direction: column;
+        padding: 0 20px;
+    }
+  
+    .menu .navbar ul li{
+        width: 100%;
+        padding: 20px 0;
+        text-align: center;
+    }
+  
+    .menu .navbar ul li a:hover{
+        color: #1f0c42;
+    }
+  
+    #menu:checked ~ .navbar{
+        display: initial;
+    }
+  
+    .header-txt{
+        padding-left: 50px;
+    }
+    .header-txt h1{
+        font-size: 50px;
+        font-weight: 600;
+        margin-top: 50px;
+        color: #fff;
+    }
+    
+    .header-txt p{
+        font-size: 20px;
+        color: #c1c1c1;
+        margin-bottom: 50px;
+        padding-top: 25px;
+        color: #fff;
+    }
+  
+  .header-content{
+    height: 86vh;
+    display: flex;     
+    background-size:cover;
+    background-position: center;
+    max-width: 100vw;
+  }
+  
+  
+  
+  
+  
+  .opciones a:hover {
+    text-decoration: underline;
+    color: #F21616;
+  }
+  }
+  
+  @media(max-width:400px){
+  
+  
+      body{
+          overflow: hidden;
+      }
+  
+      .logo img{
+          width: 100px;
+          height: 90px;
+      }
+      .container{
+          margin: 0 auto;
+          background-color: #ffffff;
+          width: 100vw;
+      }
+  
+      .menu{
+          padding: 30px;
+          position: relative;
+      }
+  
+      .menu label{
+          display: initial;
+          padding-top: 30px;
+      }
+  
+      .menu .navbar{
+          position: absolute;
+          top: 100%;
+          left: 0;
+          right: 0;
+          background:   linear-gradient(45deg, #21a642 0%,#545454 100%);
+          display: none;
+      }
+      .menu .navbar ul{
+          flex-direction: column;
+          padding: 0 20px;
+      }
+  
+      .menu .navbar ul li{
+          width: 100%;
+          padding: 20px 0;
+          text-align: center;
+      }
+  
+      .menu .navbar ul li a:hover{
+          color: #1f0c42;
+      }
+  
+      #menu:checked ~ .navbar{
+          display: initial;
+      }
+  
+      .header-txt{
+          padding-left: 0px;
+      }
+      .header-txt h1{
+          font-size: 40px;
+          font-weight: 600;
+          margin-top: 0px;
+          color: #fff;
+      }
+      
+      .header-txt p{
+          font-size: 15px;
+          color: #c1c1c1;
+          margin-bottom: 50px;
+          padding-top: 25px;
+          color: #fff;
+      }
+  
+    .header-content{
+      background: url(/eventosimg/pexels-wendywei-1540406\ 1.png) no-repeat;
+      height: 86vh;
+      display: flex;     
+      background-size:cover;
+      background-position: center;
+      max-width: 100vw;
+    }
+  }
